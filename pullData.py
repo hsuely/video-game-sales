@@ -22,4 +22,4 @@ videoGames = []
 for count in range(df.shape[0]):
     videoGames.append(VideoGame(df.iloc[count,1],df.iloc[count,2],df.iloc[count,3],df.iloc[count,4],df.iloc[count,5],df.iloc[count,6],df.iloc[count,7],df.iloc[count,8],df.iloc[count,9],df.iloc[count,10]))
 
-print(videoGames[1].name)
+#print(videoGames[1].name)
